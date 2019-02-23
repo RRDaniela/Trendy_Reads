@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.danny.trendy_reads">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.Activities.InsertBooks_gener" />
+        <activity android:name=".activities.Save_Data.CorreoCompartir" />
+        <activity android:name=".activities.Activities.Register.RegisterActivityPassword" />
+        <activity android:name=".activities.Activities.Register.RegisterActivityEmail" />
+        <activity android:name=".activities.Activities.Register.UpdateUserInfo" />
+        <activity
+            android:name=".activities.Activities.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.Activities.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activities.Activities.Settings.SettingsActivity" />
+        <activity
+            android:name=".activities.Activities.Chat.ChatActivity"
+            android:label="@string/title_activity_chat"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activities.Activities.Settings.StatusActivity"></activity>
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat"/>
+    </application>
+
+</manifest>

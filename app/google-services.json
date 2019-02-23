@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1034523766492",
+    "firebase_url": "https://trendyreads-658db.firebaseio.com",
+    "project_id": "trendyreads-658db",
+    "storage_bucket": "trendyreads-658db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034523766492:android:ba510c16f846e6d4",
+        "android_client_info": {
+          "package_name": "com.example.danny.trendy_reads"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034523766492-snnea77qcjttke6hgerfq27shbdpg1l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzh-i8iFM4MNAIm1go6qtymYo9j3Bmono"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
